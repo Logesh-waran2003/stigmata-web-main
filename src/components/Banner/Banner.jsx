@@ -51,17 +51,14 @@ const Banner = ({ data }) => {
         </div>
 
         {/* Closing Statement */}
-        <div
-          data-aos-duration="500"
-          className="mt-12 text-center"
-        >
+        <div data-aos-duration="500" className="mt-12 text-center">
           <p className="text-lg text-gray-600 mb-4 leading-relaxed text-start">
             {data.finalText1}{" "}
             <span className="font-semibold">{data.finalText2}</span>{" "}
             {data.finalText3}
           </p>
           <Link
-            to="/contact us"
+            to="/contact-us"
             className="bg-green tracking-wide hover:scale-105 duration-200 text-white py-2 px-6 rounded-lg inline-block"
           >
             {data.buttonText}

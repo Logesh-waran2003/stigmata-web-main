@@ -51,7 +51,7 @@ leading-[2.5rem]"
               </span>
             </div>
             <Link
-              to="/contact us"
+              to="/contact-us"
               className="mt-6 px-6 py-3 bg-white text-blue-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-600 hover:text-white transition duration-300 shadow-md"
             >
               <span className="text-lg font-semibold sm:text-base">

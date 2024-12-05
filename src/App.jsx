@@ -1,14 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Routers from "../src/components/routers/Routers";
 
-
 const App = () => {
-
-  
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -21,11 +17,9 @@ const App = () => {
 
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
-      <Routers />  
+      <Routers />
     </div>
   );
 };
 
 export default App;
-
-

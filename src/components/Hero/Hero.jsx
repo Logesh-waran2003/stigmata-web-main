@@ -83,7 +83,7 @@ const Hero = () => {
                     </p>
                     <div>
                       <Link
-                        to="/contact us"
+                        to="/contact-us"
                         className="bg-green tracking-wide hover:scale-105 duration-200 text-white py-2 px-4 rounded"
                       >
                         Talk to Experts
@@ -97,9 +97,7 @@ const Hero = () => {
                       data-aos-once="true"
                       className=" z-10 flex flex-col  mt-0"
                     >
-                    
-
-                        {/* <img
+                      {/* <img
                           loading="lazy"
                           role="presentation"
                           src={data.img}
@@ -114,7 +112,7 @@ const Hero = () => {
                           alt="Description of the image"
                           priority={data.isImportant ? true : false}
                         /> */}
-                 
+
                       {/* <img src={data.img} alt="" className="w-full" /> */}
                     </div>
                   </div>

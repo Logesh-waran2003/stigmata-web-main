@@ -41,15 +41,14 @@ const AboutComponent = () => {
         </div>
         <div data-aos="zoom-in" className="flex-1 flex flex-col py-12 lg:py-0">
           <span className="text-lg font-bold text-gray-700">Reach Out Us</span>
-          
-          <h2 className="text-4xl  mt-6  tracking-wide mb-8">
-          We are excited to 
 
-          <span className="ml-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          connect 
-          </span>
-          with you!
-        </h2>
+          <h2 className="text-4xl  mt-6  tracking-wide mb-8">
+            We are excited to
+            <span className="ml-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              connect
+            </span>
+            with you!
+          </h2>
           <span className="text-base font-medium text-gray-700 leading-6">
             Have questions or need assistance? Our team is here to help! Contact
             us to learn more about our services and how we can support your
